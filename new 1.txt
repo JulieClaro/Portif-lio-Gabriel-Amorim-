@@ -1,0 +1,52 @@
+<html>
+    <head>
+        <title>Notas do Amor 
+
+        </title>
+ <meta charset="utf-8">
+    </head>
+    <body>
+     <script>
+         tsal=0;
+         maiorsal=0;
+         menorsal=100000000000;
+
+for (c=1;c<=3;c++){
+    var nome=prompt("Corno");
+    var sal=prompt("Salário 1:");
+    var menorsal
+    var Nmenorsal
+    var maiorsal
+    var Nmmaiorsal
+    var maiorsal 
+    nome=nome;
+    sal=parseFloat(sal); 
+    tsal=tsal+sal;
+    if (sal>maiorsal){
+        maiorsal=sal;
+        Nmaiorsal=nome;
+    }
+    if (sal<menorsal){
+        menorsal=sal;
+        Nmenorsal=nome;
+    }
+    document.write("Nome do boi:"+nome);
+    document.write("</br>");
+    document.write("Salário final:"+sal);
+    document.write("</br>");
+}
+    
+    document.write("salário total:"+tsal);
+    document.write("</br>");
+    document.write("Nome do Menor salário:"+Nmenorsal);
+    document.write("</br>")
+    document.write("Menor salário:"+menorsal);
+    document.write("</br>")
+    document.write("Nome do maior salário:"+Nmaiorsal);
+    document.write("</br>")
+    document.write("Maior salário:"+maiorsal);
+    document.write("</br>")
+
+     </script>   
+    </body>
+</html>
